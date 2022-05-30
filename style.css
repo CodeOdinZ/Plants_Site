@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto&display=swap');
+
+
+
+
+body{
+    background-color: rgb(185, 185, 185);
+}
+
+
+.header{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding:0;
+    height:75px;
+    /*border: 5px solid red;*/
+    background-color: white;
+    margin-top:-7px;
+    margin-left:-8px;
+    margin-right:-10px;
+    box-shadow: 5px 5px 20px 0px black;
+}
+
+.logo{
+    color:purple;
+    font-weight: 1000;
+    font-size: 50px;
+    font-style:italic;
+    margin-left:14px;
+    
+   
+}
+
+ul{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:44px;
+}
+
+li{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:purple;
+    font-size:20px;
+}
+
+.notifi{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: purple;
+    color: white;
+    height:30px;
+    width:143px;
+    border-radius: 25px;
+    margin-left:auto;
+    margin-right:40px;
+    font-weight:700;
+}
+.circle{
+    background-color: purple;
+    width: 50px;
+    height:50px;
+    border-radius:25px;
+    margin-right:20px;
+}
+
+
+a{
+    text-decoration: none;
+    color:purple;
+}
+
+.images{
+    display:flex;
+    justify-content: center;
+    /*border:5px solid red;*/
+    margin-top:50px;
+    height:307px;
+    gap:61px;
+
+
+}
+
+.image1,.image2,.image3,.image4{
+    /*border:5px solid black;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:43px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 550;
+    font-family:'Courier New', Courier, monospace;
+
+}    
+
+.img{
+    height:135px;
+    width:135px;
+}
+
+.title{
+    font-size:45px;
+    font-weight:650;
+    color:rgb(60, 0, 88);
+    
+    text-align: center;
+    margin-top:41px;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+.butt{
+    border-radius:12px;
+    color:white;
+    background-color: blueviolet;
+    padding:9px;
+    height:40px;
+    width:71px;
+    margin-top:151px;
+    margin-left:900px;
+}
+
+.main{
+    /*border:3px solid blue;*/
+    
+    height:323px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.dialog{
+    /*border:2px solid red;*/
+    height:240px;
+    display: flex;
+    margin-top:20px;
+    width:527px;
+    border-radius:15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow:4px 4px 18px 0px black;
+
+    
+    
+    
+}
+
+/*assembling dialog box*/
+.exclam{
+    height: 85px;
+    width: 46px;
+    /*border:1px solid green;*/
+    margin-top:-3px;
+    margin-left:16px;
+}
+
+.mom{
+    display:flex;
+    /*border:1px solid orange;*/
+    flex-direction: column;
+    
+}
+
+
+.text{
+    /*border: 1px solid blue;*/
+    height: 179px;
+    width: 418px;
+    text-align: left;
+    font-size: 16px;
+    margin-left: 13px;
+    margin-top: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 570;
+    
+
+}
+
+.button{
+    display: flex;
+    gap:17px;
+    justify-content: flex-start;
+}
+
+.cont{
+    margin-left:12px;
+    background-color: rgb(34, 100, 243);
+    color: white;
+    border:none;
+}
+
+.cancel{
+    background-color: rgb(231, 230, 230);
+    color: black;
+    border:0.5px black;
+}
+
+.cont,.cancel{
+    height:36px;
+    width: 84px;
+    border-radius: 10px;
+    margin-top:4px;
+    font-size: 15.5px;
+    font-weight:550;
+
+
+}
+
+
+
+
+
+.piccross{
+    height: 47px;
+    width: 29px;
+    margin-top: 10px;
+    margin-left: -6px;
+    /*border: 1px solid green;*/
+    left: 40px;
+}
